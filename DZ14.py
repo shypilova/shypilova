@@ -12,6 +12,5 @@ def persistence(x):
         for el in d:
             mul = mul * el
         x = mul
-        test = ('*'.join(map(str, d)) + '=' + str(mul))
     print(mul)
 persistence(x)
