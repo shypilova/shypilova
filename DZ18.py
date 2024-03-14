@@ -1,23 +1,6 @@
 list_1 = (0, 2, 3, 5, 6, 9, 15, 30)
 list_2 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 30)
-# list_new_1 = list()
-# list_new_2 = list()
-# for el in list_1:
-#     if (el % 3) == 0:
-#         list_new_1.append(el)
-#     else:
-#         continue
-# print(list_new_1)
-# for el in list_2:
-#     if (el % 5) == 0:
-#         list_new_2.append(el)
-#     else:
-#         continue
-# print(list_new_2)
-# set_a = set(list_new_1)
-# set_b = set(list_new_2)
-# diff_set = set_a.intersection(set_b)
-# print(diff_set)
+
 def common_elements(first_list, second_list):
     set_a = set(first_list)
     set_b = set(second_list)
