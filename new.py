@@ -2,7 +2,8 @@ def pow(x):
     return x ** 2
 
 def some_gen(begin, end, func):
-    lst = [begin]                   #перший елемент послідовності
+    lst = []
+    lst.append(begin)
     for i in range(end-1):
         begin = pow(begin)
         lst.append(begin)
